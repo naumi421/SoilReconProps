@@ -1,13 +1,11 @@
 ######################
 ## Random Forest script that includes:
 ## Extraction of covariates to points
-## Confustion matrix creation
-## Kappa calculation
 ## Prediction interval creation
 ## Cross Validation
 ## Most steps parallelized
 ######################
-
+## Bulk Density
 
 
 # Workspace setup
