@@ -11,3 +11,8 @@ Files with "cvlm_preds" are the cross validation (CV) instances that include all
 Files with "rflmadj" are the regression forest averaging bias linear adjustment model R objects for each depth.
 
 The QuantRFmodel_LmAdj_ File is the R script with the full prediction workflow.
+
+NCSS17_kf_calcs.xlsx - Table with fine fraction erodibility calculations
+
+kw_correction_ttab.txt - Rock correction table used for adjusted fine soil erodibility (kf) to rock adjusted erodibility
+
