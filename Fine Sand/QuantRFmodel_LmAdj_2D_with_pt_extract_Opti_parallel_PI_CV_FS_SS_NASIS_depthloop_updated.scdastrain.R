@@ -88,7 +88,7 @@ prop <- "sandfine_r" ## Dependent variable
 pts.ext$tid <- "nasis"
 
 ## Remove lab pedons from nasis data to allow for evaluation at end
-scd.pts <- read.delim("/media/tnaum/D/GIS_Archive/NRCS_pedons/NCSS_Soil_Characterization_Database20170718/NCSS_Soil_Characterization_Database_05_17_2017_FGDB/NCSS17_BD_Moisture_ttab.txt")
+scd.pts <- read.delim("/media/tnaum/D/GIS_Archive/NRCS_pedons/NCSS_Soil_Characterization_Database20170718/NCSS_Soil_Characterization_Database_05_17_2017_FGDB/NCSS17_PSDA_rkFrags_ttab.txt")
 pts.ext$LocID <- paste(pts.ext$xwgs84, pts.ext$ywgs84, sep = "")
 nasislocs <- unique(pts.ext$LocID)
 scd.pts$LocID <- paste(scd.pts$longitude_decimal_degrees, scd.pts$latitude_decimal_degrees, sep = "")
