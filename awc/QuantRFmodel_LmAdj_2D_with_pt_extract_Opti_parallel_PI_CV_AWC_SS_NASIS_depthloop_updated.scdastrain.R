@@ -77,8 +77,8 @@ shp.pts$DID <- seq.int(nrow(shp.pts))
 pts.ext <- merge(as.data.frame(shp.pts),ov.lst, by="DID")
 
 ## Save points
-setwd("/home/tnaum/data/BLMsoils/EC_SSURGO_NASIS_2D")
-saveRDS(pts.ext, "UCRB_nasis_SSURGO_ec_r_ART_SG100_covarsc.rds")
+setwd(predfolder)
+saveRDS(pts.ext, "UCRB_nasis_SSURGO_ART_SG100_covarsc_final.rds")
 ## OR load Pre-prepared extract for UCRB
 # pts.ext <- readRDS("/home/tnaum/data/gSSURGO18/UCRB_gSSURGO18_mupolys_nasis/UCRB_nasis_SSURGO_ART_SG100_covarsc_final.rds")
 
