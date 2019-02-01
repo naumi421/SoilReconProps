@@ -1,4 +1,4 @@
-# Rock fragement (> 2mm) content
+# Rock fragment (> 2mm) content
 
 This folder catalogues models and inputs for rock content maps
 
